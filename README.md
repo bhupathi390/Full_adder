@@ -36,12 +36,43 @@ Hence, from the truth table, it is clear that the sum output of the full adder i
 
 ![Full_adder](https://github.com/bhupathi390/Full_adder/blob/4bd9c1b36d190c9742a4aad7d78e68f9debc37a9/Full-Adder.jpg)
 
+**RTL Design using Xilinx**
 
+-> Open Xilinx software.
 
+-> Click on " Creating New Project "
 
+-> Name the project as "Half_adder" and Choose location to save your Verilog code.
 
+-> Initiate Inputs as A , B .
 
+-> Initiate Outputs as SUM, Carry .
 
+-> Select appropriated Board (In Xilinx have lots of Boards available choose right Board for better Results)
+
+It will create a Wizard as Current design and Simulation by Hierarchy based.
+
+-> Right click on Design -> Add source -> create New File -> Choose Verilog as language program.
+
+Then it produce and Editor to write the code write verilog Code for Half_adder
+
+Once you done the code Start Compiler the Xilinx RUN the code shows any errors if found onit in Console, If your code is Error free the proceed to Rum SIMULATION and Observe TIMING Graphs.
+
+-> Run Simulation and Observe TIMING Graphs so that verify your the design with Truth Table as Shown in above.
+
+After getting all the inputs are verifies with respect to output based on Timing (time:1n\s)
+
+-> Run Synthesis -> Schematic -> It shows the Hardware Design of Half_adder generated based on Verilog code.
+
+-> Under Synthesis we can Observe different type of reports
+
+By using below command in console observe different Reports and Analysis.
+
+        -> report_power
+        -> report_timing 
+        -> report_drc
+
+After Observe all the reports we can say that our design is successful Run and Synthesized and these .v files are used for Gate-Level Netlist to do the Back-End Design.
 
 
 
