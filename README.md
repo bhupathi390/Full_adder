@@ -23,15 +23,15 @@ Full adder takes three inputs namely A, B, and Cin. Where, A and B are the two b
 Truth table is one that indicates the relationship between input and output variables of a logic circuit and explains the operation of the logic circuit. The following is the truth table of the full-adder circuit −
 
       Inputs	Outputs
-      A	B   Cin     S  Cout 
-      0	0    0      0    0
-      0	0    1	1    0
-      0	1    0	1    0
-      0	1    1	0    1
-      1	0    0	1    0
-      1	0    1	0    1
-      1	1    0	0    1
-      1	1    1	1    1
+      A	B   Cin      S  Cout 
+      0	0    0       0    0
+      0	0    1	 1    0
+      0	1    0	 1    0
+      0	1    1	 0    1
+      1	0    0	 1    0
+      1	0    1	 0    1
+      1	1    0	 0    1
+      1	1    1	 1    1
 Hence, from the truth table, it is clear that the sum output of the full adder is equal to 1 when only 1 input is equal to 1 or when all the inputs are equal to 1. While the carry output has a carry of 1 if two or three inputs are equal to 1.
 
 ![Full_adder](https://github.com/bhupathi390/Full_adder/blob/4bd9c1b36d190c9742a4aad7d78e68f9debc37a9/Full-Adder.jpg)
