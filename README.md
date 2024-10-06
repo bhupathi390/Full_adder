@@ -38,6 +38,13 @@ Hence, from the truth table, it is clear that the sum output of the full adder i
 
 
 
+
+
+
+
+
+
+
 **Advantages of Full Adder**
 
 The following are the important advantages of full adder over half adder −
