@@ -24,7 +24,7 @@ Truth table is one that indicates the relationship between input and output vari
 
       Inputs	Outputs
       A	B   Cin	S  Cout 
-      0	0    0  	0    0
+      0	0    0      0    0
       0	0    1	1    0
       0	1    0	1    0
       0	1    1	0    1
