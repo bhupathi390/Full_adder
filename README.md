@@ -23,7 +23,7 @@ Full adder takes three inputs namely A, B, and Cin. Where, A and B are the two b
 Truth table is one that indicates the relationship between input and output variables of a logic circuit and explains the operation of the logic circuit. The following is the truth table of the full-adder circuit −
 
       Inputs	Outputs
-      A	B   Cin	S  Cout 
+      A	B   Cin     S  Cout 
       0	0    0      0    0
       0	0    1	1    0
       0	1    0	1    0
